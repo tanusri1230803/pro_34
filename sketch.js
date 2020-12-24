@@ -23,17 +23,17 @@ function setup()
   mConstraint = MouseConstraint.create(engine,options);
   World.add(world,mConstraint);
 
-pendulum1 = new pendulum(100,300,"red");
-pendulum2 = new pendulum(150,300,"red");
-pendulum3 = new pendulum(200,300,"red");
-pendulum4 = new pendulum(250,300,"red");
-pendulum5 = new pendulum(300,300,"red");
+pendulum1 = new pendulum(100,100,"red");
+pendulum2 = new pendulum(150,100,"red");
+pendulum3 = new pendulum(200,100,"red");
+pendulum4 = new pendulum(250,100,"red");
+pendulum5 = new pendulum(300,100,"red");
 
-sling1 = new sling(pendulum1.body,{x:100,y:200});
-sling2 = new sling(pendulum2.body,{x:150,y:200});
-sling3 = new sling(pendulum3.body,{x:200,y:200});
-sling4 = new sling(pendulum4.body,{x:250,y:200});
-sling5 = new sling(pendulum5.body,{x:300,y:200});
+sling1 = new sling(pendulum1.body,{x:100,y:10});
+sling2 = new sling(pendulum2.body,{x:150,y:10});
+sling3 = new sling(pendulum3.body,{x:200,y:10});
+sling4 = new sling(pendulum4.body,{x:250,y:10});
+sling5 = new sling(pendulum5.body,{x:300,y:10});
 
 }
 function draw() {
